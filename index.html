@@ -14,10 +14,15 @@
 
 </head>
 
+
 <body class="bg-slate-100 text-slate-950 dark:text-slate-400 dark:bg-slate-950 leading-relaxed antialiased">
+    
+    <!--Background Image Number 1-->
+    <div class="bg-fixed absolute inset-0 bg-cover bg-center" style="background-image: url('../Personal_Website/images/sun-dark.svg')"></div>
+
     <div class="_variable_20b187 group/spotlight relative">
         <!--Scroll effects-->
-        <div class="pointer-events-none fixed insert-0 z-30 transition duration-300 1g:absolute"></div>
+        <div class="pointer-events-none fixed insert-0 z-30 transition duration-300 lg:absolute"></div>
 
         <!--Website subsections-->
         <div class="mix-auto min-h-screen max-w-screen-x1 px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
@@ -35,7 +40,7 @@
                         <h2 class="mt-3 text-sm font-medium tracking-tight text-slate-200 sm:text-xl">
                             CS & Phys @ 
                             <a href="https://www.utdallas.edu" class="font-medium 
-                                text-slate-500 hover:text-slate-300 focus-visible:text-emerald-300">UT Dallas
+                                text-slate-400 hover:text-slate-300 focus-visible:text-emerald-300">UT Dallas
                             </a>
                         </h2>
                         <p>
@@ -48,27 +53,27 @@
                             <ul class="mt-16 w-max">
 
                                 <li>
-                                    <a href="#about" class="group flex items-center py-3">
-                                        <span  class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 
-                                        bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none">
+                                    <a href="#about" class="group flex items-center py-3 hover:text-slate-200">
+                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 bg-slate-200 
+                                        group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none hover:text-slate-200">
                                         </span>
-                                        <span>About</span>
+                                        <span>Home</span>
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#experience" class="group flex items-center py-3">
-                                        <span  class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 
-                                        bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none">
+                                    <a href="#experience" class="group flex items-center py-3 hover:text-slate-200">
+                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 bg-slate-200 
+                                        group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none hover:text-slate-200">
                                         </span>
                                         <span>Experience</span>
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#projects" class="group flex items-center py-3">
-                                        <span  class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 
-                                        bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none">
+                                    <a href="#projects" class="group flex items-center py-3 hover:text-slate-200">
+                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 bg-slate-200 
+                                        group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none">
                                         </span>
                                         <span>Projects</span>
                                     </a>
@@ -76,9 +81,9 @@
 
 
                                 <li>
-                                    <a href="#projects" class="group flex items-center py-3">
-                                        <span  class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 
-                                        bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none">
+                                    <a href="#papers" class="group flex items-center py-3 hover:text-slate-200">
+                                        <span class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 bg-slate-200 
+                                        group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none hover:text-slate-200">
                                         </span>
                                         <span>Papers</span>
                                     </a>
@@ -127,13 +132,6 @@
                 <main id="content" contenteditable="lg:w-1/2 lg:py-24" style="padding-top: 96px">
                     <!--About Me section-->
                     <section id="about" class="mb-16 scroll-mt16 md:mb-24 lg:mb-36 lg:scrmt-mt-24">
-                        <div class="sticky top-0 x-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py5 backdrop-blur 
-                        md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:opacity-0">
-                            <h2 class="text-sm font-bold uppercase tracking-widest text-sky-200 lg:sr-only">
-                                About
-                            </h2>
-                        </div>
-
                         <div>
                             <p class="mb-4">
                                 I am a third year Computer Science student at The University of Texas at Dallas. I am not only 
@@ -153,9 +151,10 @@
                         </div>
                     </section>
 
+                    <!--Experience Section-->
                     <section id="experience" class="mb-16 scroll-mt16 md:mb-24 lg:mb-36 lg:scrmt-mt-24">
                         <div>
-                            <h2 class="text-sm font-bold uppercase tracking-widest test-sky-200">
+                            <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 test-sky-200 sm:text-2xl">
                                 Experience
                             </h2>
                         </div>
@@ -171,7 +170,7 @@
                                         </div>
 
                                         <header close="z-10 mb-2 mt-1 text-xs font-semibolb uppercase tracking-wide text-slate-500 sm:col-span-2">
-                                            2018-present
+                                            Aug - Oct'24
                                         </header>
 
                                         <div class="z-10 sm:col-span-6">
@@ -181,8 +180,8 @@
                                                     hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
                                                         <span class="absolute -inset-x-4 -inset-y-2.5 hidden md:-inset-x-6 md:-inset-y-4 lg:block">
                                                         </span>
-                                                        <span>Lead Engineer .
-                                                            <span class="inline-block">Project Name (Link)</span> <!--Role and Project Name (Add link to this later)-->
+                                                        <span>Lead Engineer ◦
+                                                            <span class="inline-block">Project Name</span> <!--Role and Project Name (Add link to this later)-->
                                                         </span>
                                                     </a>
                                                 </div>
@@ -190,13 +189,206 @@
                                                 <div>
                                                     <h4 class="text-slate-500">Senior Engineer</h4>
                                                 </div>
+                                            </h3>
+
+                                            <p class="mt-2 text-sm leading-normal">
+                                                Job Description: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
+                                                honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
+                                                Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
+                                                problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
+                                                text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
+                                            </p>
+
+                                            <!--Second Paragraph-->
+                                            <div class="z-10 sm:col-span-6">
+                                                <div class="mt-2 leading-normal">
+                                                    <h3 class="font-medium leading-snug text-slate-200">
+                                                        <div>
+                                                            <h4 class="text-slate-500">Senior Engineer | Aug - Oct 2024</h4>
+                                                        </div>
+                                                    </h3>
+                                                </div>
+
+                                                <p class="mt-2 text-sm leading-normal">
+                                                    Job Description: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
+                                                    honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
+                                                    Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
+                                                    problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
+                                                    text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="mb-12">
+                                    <div class="group relative grid pb-1 transition-all sm:grid-cols-8
+                                    sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list.opacity-50">
+                                        <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition
+                                        motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50
+                                        lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148, 163, 184, 0.1)]
+                                        lg:group-hover:drop-shadow-lg">
+                                        </div>
+
+                                        <header close="z-10 mb-2 mt-1 text-xs font-semibolb uppercase tracking-wide text-slate-500 sm:col-span-2">
+                                            Aug - Oct'24
+                                        </header>
+                                        
+                                        <div class="z-10 sm:col-span-6">
+                                            <h3 class="font-medium leading-snug text-slate-200">
                                                 <div>
-                                                    <p class="text-slate-500">Engineer</p>
+                                                    <a href="#" class="inline-flex items-baseline font-medium leading-tight text-slate-200
+                                                    hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
+                                                        <span class="absolute -inset-x-4 -inset-y-2.5 hidden md:-inset-x-6 md:-inset-y-4 lg:block">
+                                                        </span>
+                                                        <span>Lead Engineer Scientist ◦
+                                                            <span class="inline-block">Project Name</span> <!--Role and Project Name (Add link to this later)-->
+                                                        </span>
+                                                    </a>
+                                                </div>
+
+                                                <div>
+                                                    <h4 class="text-slate-500"> Intern</h4>
                                                 </div>
                                             </h3>
 
                                             <p class="mt-2 text-sm leading-normal">
                                                 Job Description: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
+                                                honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
+                                                Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
+                                                problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
+                                                text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+
+                                <li class="mb-12">
+                                    <div class="group relative grid pb-1 transition-all sm:grid-cols-8
+                                    sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list.opacity-50">
+                                        <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition
+                                        motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50
+                                        lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148, 163, 184, 0.1)]
+                                        lg:group-hover:drop-shadow-lg">
+                                        </div>
+
+                                        <header close="z-10 mb-2 mt-1 text-xs font-semibolb uppercase tracking-wide text-slate-500 sm:col-span-2">
+                                            Aug - Oct'24
+                                        </header>
+
+                                        <div class="z-10 sm:col-span-6">
+                                            <h3 class="font-medium leading-snug text-slate-200">
+                                                <div>
+                                                    <a href="#" class="inline-flex items-baseline font-medium leading-tight text-slate-200
+                                                    hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
+                                                        <span class="absolute -inset-x-4 -inset-y-2.5 hidden md:-inset-x-6 md:-inset-y-4 lg:block">
+                                                        </span>
+                                                        <span>Computer Engineer Scientist ◦
+                                                            <span class="inline-block">Project Name</span> <!--Role and Project Name (Add link to this later)-->
+                                                        </span>
+                                                    </a>
+                                                </div>
+
+                                                <div>
+                                                    <h4 class="text-slate-500"> Intern Engineer</h4>
+                                                </div>
+                                            </h3>
+                                            
+                                            <p class="mt-2 text-sm leading-normal">
+                                                Job Description: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
+                                                honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
+                                                Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
+                                                problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
+                                                text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="mb-12">
+                                    <div class="group relative grid pb-1 transition-all sm:grid-cols-8
+                                    sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list.opacity-50">
+                                        <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition
+                                        motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50
+                                        lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148, 163, 184, 0.1)]
+                                        lg:group-hover:drop-shadow-lg">
+                                        </div>
+
+                                        <header close="z-10 mb-2 mt-1 text-xs font-semibolb uppercase tracking-wide text-slate-500 sm:col-span-2">
+                                            Aug - Oct'24
+                                        </header>
+
+                                        <div class="z-10 sm:col-span-6">
+                                            <h3 class="font-medium leading-snug text-slate-200">
+                                                <div>
+                                                    <a href="#" class="inline-flex items-baseline font-medium leading-tight text-slate-200
+                                                    hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
+                                                        <span class="absolute -inset-x-4 -inset-y-2.5 hidden md:-inset-x-6 md:-inset-y-4 lg:block">
+                                                        </span>
+                                                        <span>Lead Engineer Scientist ◦
+                                                            <span class="inline-block">Project Name</span> <!--Role and Project Name (Add link to this later)-->
+                                                        </span>
+                                                    </a>
+                                                </div>
+
+                                                <div>
+                                                    <h4 class="text-slate-500"> SaleFoc Intern</h4>
+                                                </div>
+                                            </h3>
+                                            
+                                            <p class="mt-2 text-sm leading-normal">
+                                                Job Description: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
+                                                honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
+                                                Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
+                                                problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
+                                                text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </section>
+
+                    <!---Project section-->
+                    <section id="projects" class="mb-16 scroll-mt16 md:mb-24 lg:mb-36 lg:scrmt-mt-24">
+                        <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 test-sky-200 sm:text-2xl">
+                            Projects
+                        </h2>
+
+                        <div>
+                            <!--Projects Cards-->
+                            <ul class="group/list">
+                                <li class="mb-12">
+                                    <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4
+                                    lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                        <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none
+                                        lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_0_1px_0_0_rgba(148, 163, 184, 0.1)]
+                                        lg:group-hover:drop-shadow-lg">
+                                        </div>
+
+                                        <div class="z-10 sm:order-2 sm:col-span-6">
+                                            <h3 class="font-medium leading-snug text-slate-200">
+                                                <div>
+                                                    <a href="#" class="inline-flex items-baseline font-medium leading-tight text-slate-200
+                                                    hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
+                                                        <span class="absolute -inset-x-4 -inset-y-2.5 hidden md:-inset-x-6 md:-inset-y-4 lg:block">
+                                                        </span>
+                                                        <span>Build a Spotify Connected 
+                                                            <span class="inline-block">App(Link)</span> <!--Role and Project Name (Add link to this later)-->
+                                                        </span>
+                                                    </a>
+                                                </div>
+
+                                                <div>
+                                                    <h4 class="text-slate-500">Machine Learning</h4>
+                                                </div>
+                                            </h3>
+
+                                            <p class="mt-2 leading-normal"> 
+                                                Project Description1: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
                                                 honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
                                                 Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
                                                 problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
@@ -225,35 +417,13 @@
                                                     </div>
                                                 </li>
                                             </ul>
+
                                         </div>
+                                        <img src="images/spotify.png" alt="" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/50
+                                        sm:order-1 sm:col-span-2 sm:translate-y-1">
                                     </div>
                                 </li>
-                            </ol>
 
-                            <div class="mb-12">   <!--This is where projects begins-->
-                                <a href="/">
-                                    <span>View Resume</span>
-                                </a>
-                            </div>
-                        </div>
-                    </section>
-
-
-                    <!---Project section-->
-                    <section id="projects" class="mb-16 scroll-mt16 md:mb-24 lg:mb-36 lg:scrmt-mt-24">
-                        <h2 class="text-sm font-bold uppercase tracking-widest test-sky-200">
-                            Projects
-                        </h2>
-                        <div class="sticky top-0 x-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py5 backdrop-blur 
-                        md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:opacity-0">
-                            <h2 class="text-sm font-bold uppercase tracking-widest text-sky-200 lg:sr-only">
-                                Projects
-                            </h2>
-                        </div>
-
-                        <div>
-                            <!--Projects Cards-->
-                            <ul class="group/list">
                                 <li class="mb-12">
                                     <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4
                                     lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
@@ -276,20 +446,41 @@
                                                 </div>
 
                                                 <div>
-                                                    <h4 class="text-slate-500">Senior Engineer</h4>
-                                                </div>
-                                                <div>
-                                                    <p class="text-slate-500">Engineer</p>
+                                                    <h4 class="text-slate-500">Machine Learning</h4>
                                                 </div>
                                             </h3>
 
-                                            <p> 
+                                            <p class="mt-2 leading-normal"> 
                                                 Project Description1: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
                                                 honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
                                                 Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
                                                 problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
                                                 text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
                                             </p>
+
+                                            <ul class="mt-2 flex flex-wrap">
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="flex items-center rounded-full bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                                                        Javascript
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="flex items-center rounded-full bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                                                        python
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="flex items-center rounded-full bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                                                        Java
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="flex items-center rounded-full bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                                                        HTML/CSS
+                                                    </div>
+                                                </li>
+                                            </ul>
+
                                         </div>
                                         <img src="images/spotify.png" alt="" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/50
                                         sm:order-1 sm:col-span-2 sm:translate-y-1">
@@ -318,91 +509,78 @@
                                                 </div>
 
                                                 <div>
-                                                    <h4 class="text-slate-500">Senior Engineer</h4>
-                                                </div>
-                                                <div>
-                                                    <p class="text-slate-500">Engineer</p>
+                                                    <h4 class="text-slate-500">Machine Learning</h4>
                                                 </div>
                                             </h3>
 
-                                            <p> 
-                                                Project Description2: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
+                                            <p class="mt-2 leading-normal"> 
+                                                Project Description1: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
                                                 honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
                                                 Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
                                                 problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
                                                 text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
                                             </p>
-                                        </div>
-                                        <img src="images/spotify.png" alt="" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/50
-                                        sm:order-1 sm:col-span-2 sm:translate-y-1">
-                                    </div>
-                                </li>
 
-                                <li class="mb-12">
-                                    <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4
-                                    lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                                        <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none
-                                        lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_0_1px_0_0_rgba(148, 163, 184, 0.1)]
-                                        lg:group-hover:drop-shadow-lg">
-                                        </div>
+                                            <ul class="mt-2 flex flex-wrap">
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="flex items-center rounded-full bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                                                        Javascript
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="flex items-center rounded-full bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                                                        python
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="flex items-center rounded-full bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                                                        Java
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="flex items-center rounded-full bg-teal-400/20 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                                                        HTML/CSS
+                                                    </div>
+                                                </li>
+                                            </ul>
 
-                                        <div class="z-10 sm:order-2 sm:col-span-6">
-                                            <h3 class="font-medium leading-snug text-slate-200">
-                                                <div>
-                                                    <a href="#" class="inline-flex items-baseline font-medium leading-tight text-slate-200
-                                                    hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
-                                                        <span class="absolute -inset-x-4 -inset-y-2.5 hidden md:-inset-x-6 md:-inset-y-4 lg:block">
-                                                        </span>
-                                                        <span>Build a Spotify Connected 
-                                                            <span class="inline-block">App(Link)</span> <!--Role and Project Name (Add link to this later)-->
-                                                        </span>
-                                                    </a>
-                                                </div>
-
-                                                <div>
-                                                    <h4 class="text-slate-500">Senior Engineer</h4>
-                                                </div>
-                                                <div>
-                                                    <p class="text-slate-500">Engineer</p>
-                                                </div>
-                                            </h3>
-
-                                            <p> 
-                                                Project Description3: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
-                                                honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
-                                                Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
-                                                problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
-                                                text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
-                                            </p>
                                         </div>
                                         <img src="images/spotify.png" alt="" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/50
                                         sm:order-1 sm:col-span-2 sm:translate-y-1">
                                     </div>
                                 </li>
                             </ul>
-
-                            <div class="mt-12">   <!--This is where projects begins-->
-                                <a href="/">
-                                    <span>View Projects</span>
-                                </a>
-                            </div>
                         </div>
                     </section>
 
+
+
+
+
+
+
+
+
+
+
+                    
+
+
+                    
                     <!--Blog/Wrtting Section-->
-                    <section class="mb-16 scroll-mt16 md:mb-24 lg:mb-36 lg:scrmt-mt-24">
-                        <div class="sticky top-0 x-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py5 backdrop-blur 
-                        md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:opacity-0">
-                            <h2 class="text-sm font-bold uppercase tracking-widest text-sky-200 lg:sr-only">
-                                Writing
+                    <section id="papers" class="mb-16 scroll-mt16 md:mb-24 lg:mb-36 lg:scrmt-mt-24">
+                        <div>
+                            <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 test-sky-200 sm:text-2xl">
+                                Papers
                             </h2>
                         </div>
 
                         <div>
                             <!--Writting Cards-->
                             <ul class="group/list">
+
                                 <li class="mb-12">
-                                    <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4
+                                    <div class="group relative  gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4
                                     lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                                         <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none
                                         lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_0_1px_0_0_rgba(148, 163, 184, 0.1)]
@@ -421,30 +599,21 @@
                                                         </span>
                                                     </a>
                                                 </div>
-
-                                                <div>
-                                                    <h4 class="text-slate-500">Senior Engineer</h4>
-                                                </div>
-                                                <div>
-                                                    <p class="text-slate-500">Engineer</p>
-                                                </div>
                                             </h3>
-
-                                            <p> 
-                                                Project Description1: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
-                                                honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
-                                                Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
-                                                problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
-                                                text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
-                                            </p>
                                         </div>
-                                        <img src="images/spotify.png" alt="" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/50
-                                        sm:order-1 sm:col-span-2 sm:translate-y-1">
+
+                                        <p class="mt-2 leading-normal"> 
+                                            Project Description1: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
+                                            honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
+                                            Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
+                                            problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
+                                            text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
+                                        </p>
                                     </div>
                                 </li>
 
                                 <li class="mb-12">
-                                    <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4
+                                    <div class="group relative  gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4
                                     lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                                         <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none
                                         lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_0_1px_0_0_rgba(148, 163, 184, 0.1)]
@@ -463,30 +632,21 @@
                                                         </span>
                                                     </a>
                                                 </div>
-
-                                                <div>
-                                                    <h4 class="text-slate-500">Senior Engineer</h4>
-                                                </div>
-                                                <div>
-                                                    <p class="text-slate-500">Engineer</p>
-                                                </div>
                                             </h3>
-
-                                            <p> 
-                                                Project Description2: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
-                                                honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
-                                                Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
-                                                problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
-                                                text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
-                                            </p>
                                         </div>
-                                        <img src="images/spotify.png" alt="" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/50
-                                        sm:order-1 sm:col-span-2 sm:translate-y-1">
+
+                                        <p class="mt-2 leading-normal"> 
+                                            Project Description1: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
+                                            honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
+                                            Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
+                                            problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
+                                            text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
+                                        </p>
                                     </div>
                                 </li>
 
                                 <li class="mb-12">
-                                    <div class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4
+                                    <div class="group relative  gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4
                                     lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                                         <div class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none
                                         lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_0_1px_0_0_rgba(148, 163, 184, 0.1)]
@@ -505,27 +665,19 @@
                                                         </span>
                                                     </a>
                                                 </div>
-
-                                                <div>
-                                                    <h4 class="text-slate-500">Senior Engineer</h4>
-                                                </div>
-                                                <div>
-                                                    <p class="text-slate-500">Engineer</p>
-                                                </div>
                                             </h3>
-
-                                            <p> 
-                                                Project Description3: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
-                                                honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
-                                                Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
-                                                problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
-                                                text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
-                                            </p>
                                         </div>
-                                        <img src="images/spotify.png" alt="" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/50
-                                        sm:order-1 sm:col-span-2 sm:translate-y-1">
+
+                                        <p class="mt-2 leading-normal"> 
+                                            Project Description1: I am a Second year Computer Science student at The University of Texas at Dallas. I am not only 
+                                            honing my skills in computer science but also expanding my knowledge as a Full Stack Software and 
+                                            Machine Learning Engineer. With a strong passion for building technology that can solve meaningful 
+                                            problems, I am always seeking new opportunities to learn and grow. <a href="#" class="font-medium 
+                                            text-slate-200 hover:text-slate-300 focus-visible:text-emerald-300">Learn more</a>, about me.
+                                        </p>
                                     </div>
                                 </li>
+                                
                             </ul>
                         </div>
                     </section>
